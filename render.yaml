@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: geometry-honors-challenge
-    env: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
-    autoDeploy: true
